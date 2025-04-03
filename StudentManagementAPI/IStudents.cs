@@ -8,9 +8,11 @@ namespace StudentManagementAPI
 {
     public interface IStudents
     {
-        int id { get; set; }
+        int Id { get; set; }
         string Firstname { get; set; }
         string Lastname { get; set; }
+
+        string Department { get; set; }
         decimal DegreeFee { get; set; }
 
     }
